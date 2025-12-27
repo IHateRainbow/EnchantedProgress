@@ -1,0 +1,13 @@
+name: EnchantedProgress
+main: enchantedprogress.App
+version: 1.0.0
+api-version: 1.21
+commands:
+  reload:
+    description: Reload plugin config
+    usage: /ep reload
+    aliases: [enchantedprogress]
+permissions:
+  ep.reload:
+    description: Permission to reload plugin config
+    default: op
